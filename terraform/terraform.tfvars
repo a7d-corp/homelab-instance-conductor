@@ -1,7 +1,7 @@
 pm_host_port    = 8006
 pm_tls_insecure = true
 
-instance_domain = "lab.analbeard.com"
+instance_domain = "node.room101.a7d"
 
 clone         = "template-ubuntu-2004-base-image"
 target_node   = "host-03"
