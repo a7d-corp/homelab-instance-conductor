@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket                      = "homelab-infra-instance"
+    bucket                      = "homelab-instance-conductor"
     force_path_style            = true
     key                         = "terraform.tfstate"
     skip_credentials_validation = true
