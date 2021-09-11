@@ -21,7 +21,7 @@ module "instance_cloudinit_template" {
     netmask = var.net0_network_netmask
   }
 
-  search_domains = ["k8s.analbeard.com", "analbeard.com"]
+  search_domains = ["a7d", "analbeard.com"]
   dns_servers    = ["10.101.0.60", "10.101.0.45"]
 
   user_data_blob = {
