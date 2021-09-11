@@ -1,3 +1,3 @@
-# homelab-instance-infra-conductor
+# homelab-instance-conductor
 
-Configuration for Proxmox instance `infra-conductor`.
+Configuration for Proxmox instance `conductor`.
